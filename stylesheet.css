@@ -93,13 +93,13 @@
 /* Main tags */
 
 body {
-	background-color: #046;
+	background-color: #00473b;
 	margin: 0;
 }
 
 h1,h2,h3, h4 {
 	font-family: 'Lato', Helvetica, sans-serif;
-	color: #009b94;
+	color: #19a59e;
 }
 	h1 {
 		font-size: 49px;
@@ -189,13 +189,13 @@ ul {
 	}
 	#content_container {
 		width: 699px;
-		border-left: 1px solid #85a9c9;
+		border-left: 1px solid #fff;
 		float: left;
 	}
 	#footer {
 		width: 960px;
 		height: 60px;
-		border-top: 1px solid #85a9c9;
+		border-top: 1px solid #fff;
 		display: inline-block;
 	}
 
