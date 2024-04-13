@@ -457,11 +457,11 @@ ul {
 	.button {
 		display: inline-block;
 		border-radius: 4px;
-		background-color: #f4511e;
+		background-color: #69aa45;
 		border: none;
 		color: #FFFFFF;
 		text-align: center;
-		font-size: 16px;
+		font-size: 20;
 		padding: 20px;
 		width: 200px;
 		transition: all 0.5s;
