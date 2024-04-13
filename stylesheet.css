@@ -309,7 +309,7 @@ ul {
 .special_button {
 	margin-top: 25px;
 	display: block;
-	background: #0b5394;
+	background: #69aadb;
 	width: 230px;
 	height: 50px;
 	position: relative;
@@ -354,7 +354,7 @@ ul {
 	}
 	.send_message_button:hover,
 	.special_button:hover {
-		background: #69aadb;
+		background: #69aa45;
 	}
 
 .get_social_content {
