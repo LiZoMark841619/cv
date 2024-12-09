@@ -395,7 +395,7 @@ ul {
 			border-top-right-radius: 10px;
 			border-bottom-left-radius: 10px;
 		}
-		.social_icons .fa-brands--hackerrank {
+		.social_icons .fa-brands--hackerrank:hover {
 			display: inline-block;
 			width: 512px;
 			height: 512px;
