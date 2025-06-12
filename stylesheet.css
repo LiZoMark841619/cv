@@ -499,3 +499,15 @@ ul {
 		opacity: 1;
 		right: 0;
 	  }
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.projects-grid .button {
+  flex: 1 1 calc(50% - 16px);
+  min-width: 180px;
+  margin: 0;
+  text-align: center;
+}
