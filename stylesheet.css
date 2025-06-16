@@ -517,25 +517,6 @@ ul {
   box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media print {
-  .projects-grid {
-    display: block !important;
-  }
-  .projects-grid .button {
-    display: block !important;
-    width: 100% !important;
-    max-width: none !important;
-    margin-bottom: 6px !important;
-    page-break-inside: avoid !important;
-  }
-}
-
 .last.block ul li {
 	margin-bottom: 18px;
 }
