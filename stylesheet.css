@@ -503,18 +503,19 @@ ul {
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 6px;           /* Kisebb rés a gombok között */
+  justify-content: flex-start;
 }
 
 .project-item {
-  flex: 1 1 calc(50% - 16px);
-  min-width: 180px;
-  margin-bottom: 16px;
+  flex: 1 1 220px;    /* Kisebb minimum szélesség */
+  min-width: 140px;
+  max-width: 260px;
+  margin-bottom: 8px; /* Kisebb alsó margó */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .project-desc {
 	font-family: 'Lato', Arial, sans-serif;
 	font-size: 17px;
@@ -526,4 +527,17 @@ ul {
 
 .last.block ul li {
 	margin-bottom: 18px;
+}
+
+@media print {
+  .projects-grid {
+    display: block !important;
+  }
+  .project-item, .projects-grid .button {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 0 6px 0 !important;
+    page-break-inside: avoid !important;
+  }
 }
