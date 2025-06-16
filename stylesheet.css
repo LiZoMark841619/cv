@@ -522,7 +522,7 @@ ul {
 
 .project-desc {
   font-size: 17px;
-  font-weight: normal;
+  font-weight: normal !important;
   color: #ffffff;
   margin-top: 6px;
   text-align: left;
