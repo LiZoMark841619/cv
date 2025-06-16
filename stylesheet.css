@@ -509,6 +509,7 @@ ul {
 
 .projects-grid .button {
   display: block;
+  text-decoration: none;
   width: 100%;
   text-align: center;
   margin: 0;
