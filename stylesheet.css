@@ -462,13 +462,13 @@ ul {
 
 	.button {
 		display: inline-block;
-		border-radius: 4px;
+		border-radius: 6px;
 		background-color: #69aa45;
 		border:#3d3a41 1px solid;
 		color: #FFFFFF;
 		text-align: center;
 		font-size: 17px;
-		padding: 18px 30px;
+		padding: 16px 24px;
 		transition: all 0.5s;
 		cursor: pointer;
 		margin: 4px;
@@ -522,6 +522,7 @@ ul {
 
 .project-desc {
   font-size: 17px;
+  font-weight: normal;
   color: #ffffff;
   margin-top: 6px;
   text-align: center;
