@@ -464,11 +464,11 @@ ul {
 		display: inline-block;
 		border-radius: 4px;
 		background-color: #69aa45;
-		border: none;
+		border:#19a59e 1px solid;
 		color: #FFFFFF;
 		text-align: center;
-		font-size: 18px;
-		padding: 20px;
+		font-size: 17px;
+		padding: 18px 30px;
 		transition: all 0.5s;
 		cursor: pointer;
 		margin: 4px;
@@ -521,8 +521,12 @@ ul {
 }
 
 .project-desc {
-  font-size: 1em;
+  font-size: 1.1em;
   color: #ffffff;
   margin-top: 6px;
   text-align: center;
+}
+
+.last.block ul li {
+  margin-bottom: 18px;
 }
