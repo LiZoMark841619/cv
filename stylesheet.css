@@ -525,7 +525,7 @@ ul {
   font-weight: normal;
   color: #ffffff;
   margin-top: 6px;
-  text-align: center;
+  text-align: left;
 }
 
 .last.block ul li {
