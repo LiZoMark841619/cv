@@ -500,44 +500,41 @@ ul {
 		right: 0;
 	  }
 
+/* ...a többi stílus marad... */
+
 .projects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;           /* Kisebb rés a gombok között */
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
-.project-item {
-  flex: 1 1 220px;    /* Kisebb minimum szélesség */
-  min-width: 140px;
-  max-width: 260px;
-  margin-bottom: 8px; /* Kisebb alsó margó */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.projects-grid .button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 12px 0;
+  font-size: 1em;
+  box-sizing: border-box;
 }
+
+/* Töröld vagy kommenteld ki a .project-item és .project-desc szabályokat, ha már nincsenek leírások! */
+.project-item,
 .project-desc {
-	font-family: 'Lato', Arial, sans-serif;
-	font-size: 17px;
-	font-weight: normal !important;
-	color: #ffffff;
-	margin-top: 6px;
-	text-align: left;
+  display: none !important;
 }
 
-.last.block ul li {
-	margin-bottom: 18px;
-}
-
+/* Nyomtatásra: minden gomb új sorban, de nem esik szét */
 @media print {
   .projects-grid {
     display: block !important;
   }
-  .project-item, .projects-grid .button {
-    display: block !important;
-    width: 100% !important;
-    max-width: none !important;
-    margin: 0 0 6px 0 !important;
-    page-break-inside: avoid !important;
+  .projects-grid .button {
+    page-break-inside: avoid;
+    margin-bottom: 6px;
   }
+}
+.last.block ul li {
+	margin-bottom: 18px;
 }
