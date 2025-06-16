@@ -500,12 +500,10 @@ ul {
 		right: 0;
 	  }
 
-/* ...a többi stílus marad... */
-
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8px;
+  gap: 6px 10px; /* 6px vertical, 10px horizontal gap */
   margin-bottom: 16px;
 }
 
@@ -514,27 +512,30 @@ ul {
   width: 100%;
   text-align: center;
   margin: 0;
-  padding: 12px 0;
+  padding: 10px 0;
   font-size: 1em;
   box-sizing: border-box;
 }
 
-/* Töröld vagy kommenteld ki a .project-item és .project-desc szabályokat, ha már nincsenek leírások! */
-.project-item,
-.project-desc {
-  display: none !important;
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-/* Nyomtatásra: minden gomb új sorban, de nem esik szét */
 @media print {
   .projects-grid {
     display: block !important;
   }
   .projects-grid .button {
-    page-break-inside: avoid;
-    margin-bottom: 6px;
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin-bottom: 6px !important;
+    page-break-inside: avoid !important;
   }
 }
+
 .last.block ul li {
 	margin-bottom: 18px;
 }
