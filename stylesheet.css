@@ -464,7 +464,7 @@ ul {
 		display: inline-block;
 		border-radius: 4px;
 		background-color: #69aa45;
-		border:#19a59e 1px solid;
+		border:#3d3a41 1px solid;
 		color: #FFFFFF;
 		text-align: center;
 		font-size: 17px;
@@ -521,7 +521,7 @@ ul {
 }
 
 .project-desc {
-  font-size: 1.1em;
+  font-size: 17px;
   color: #ffffff;
   margin-top: 6px;
   text-align: center;
