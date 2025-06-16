@@ -23,7 +23,7 @@
 }
 	.block h1 {
 		margin-left: -5px;
-		font-weight: 200;
+		font-weight: 400;
 	}
 
 .last.block {
@@ -499,11 +499,6 @@ ul {
 		opacity: 1;
 		right: 0;
 	  }
-.projects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
 
 .projects-grid {
   display: flex;
