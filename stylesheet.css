@@ -521,13 +521,14 @@ ul {
 }
 
 .project-desc {
-  font-size: 17px;
-  font-weight: normal !important;
-  color: #ffffff;
-  margin-top: 6px;
-  text-align: left;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 17px;
+	font-weight: normal !important;
+	color: #ffffff;
+	margin-top: 6px;
+	text-align: left;
 }
 
 .last.block ul li {
-  margin-bottom: 18px;
+	margin-bottom: 18px;
 }
